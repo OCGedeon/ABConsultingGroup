@@ -185,14 +185,16 @@ a:focus {
 }
 
 
-.navbar-custom .nav li a:hover {
+/* .navbar-custom .nav li a:hover {
 	color:red;
-}
+} */
+
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
+.navbar-custom .nav li.active, .navbar-custom .nav li a:hover {
     outline: 0;
     font-weight:bold;
-    background:none;
+	background:none;
+	color: red;
 }
 
 .navbar-toggle {
