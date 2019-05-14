@@ -221,7 +221,7 @@ a:focus {
 }
 .top-nav-collapse .navbar-nav > li > a,
 .top-nav-collapse .navbar-nav .dropdown-menu > li > a {
-	color:black !important;	
+	color:black;	
 }
 
 .top-nav-collapse .navbar-nav .dropdown-menu {
