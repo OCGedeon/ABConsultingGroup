@@ -121,6 +121,11 @@ a:focus {
 /*
  * navbar
  */
+ /* navbar title and loading screen highlight */
+
+ .highlight {
+	 color: red;
+ }
 
 .navbar {
 	border:0px;  
