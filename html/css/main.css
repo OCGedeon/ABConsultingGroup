@@ -185,7 +185,9 @@ a:focus {
 }
 
 
-.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:hover {
+	color:red;
+}
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
