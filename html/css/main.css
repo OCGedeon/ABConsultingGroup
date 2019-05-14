@@ -1588,8 +1588,9 @@ hr.not-visible{
 	visibility: visible;
 
 }
-.fadeInLeft {
-    visibility: visible;
+.fadeInRight {
+	visibility: visible;
+	transition: opacity 2s linear;
 }
 
 /*
