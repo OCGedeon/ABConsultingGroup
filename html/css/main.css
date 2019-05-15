@@ -1601,6 +1601,18 @@ hr.not-visible{
 	visibility: visible;
 	transition: opacity 2s linear;
 }
+.zoomIn {
+	visibility: visible;
+	transition: opacity 2s linear;
+}
+.slideInLeft {
+	visibility: visible;
+	transition: opacity 2s linear;
+}
+.slideInRight {
+	visibility: visible;
+	transition: opacity 2s linear;
+}
 
 /*
  * svg
