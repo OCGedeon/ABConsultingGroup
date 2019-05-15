@@ -1432,6 +1432,14 @@ section:nth-child(odd) {
 #clients{
 	background:#F5F5F5;
 }
+
+#client-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}
 #testimonials{
 	background:#F5F5F5;
 }
