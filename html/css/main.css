@@ -988,6 +988,7 @@ a:focus {
 	-moz-transition: all 3.4s ease 0s;
 	-o-transition: all 3.4s ease 0s;
 	transition: all 3.4s ease 0s;
+	
 }
 .portfolio-link .info{
 	color:white;
