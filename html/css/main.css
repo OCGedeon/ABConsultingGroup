@@ -134,6 +134,7 @@ a:focus {
     background-color: none;
     opacity:0.96;
     color:white;
+
 }
 
 .navbar .company{
@@ -147,6 +148,7 @@ a:focus {
 .navbar-nav .dropdown-menu > li > a {
 	color:white;
 	font-size:10px;
+	display:block;
 }
 .navbar-nav > li{
 	-webkit-transition: border-bottom-color 1s ease-in-out;
@@ -154,7 +156,7 @@ a:focus {
     transition: border-bottom-color  1s ease-in-out;
 }
 .navbar-nav > li.active{
-	border-bottom:3px solid white;
+	border-bottom:3px solid red;
 }
 .top-nav-collapse .navbar-nav > li.active{
 	border-bottom:3px solid black;
@@ -182,11 +184,17 @@ a:focus {
     left:0;
 }
 
-
+.navbar-custom .nav {
+	width:475px;
+}
+.navbar-custom .nav li {
+	width:95px;
+}
 .navbar-custom .nav li a {
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
+    display:block !important;
 }
 
 
@@ -200,6 +208,7 @@ a:focus {
     font-weight:bold;
 	background:none;
 	color: red;
+	display:block !important;
 }
 
 .navbar-toggle {
