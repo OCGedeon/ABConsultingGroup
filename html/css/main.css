@@ -131,7 +131,7 @@ a:focus {
 	 color: #d40308;
  }
 
-.navbar {
+.nav {
 	border:0px;  
     text-transform: uppercase;
     font-family: "Muli","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -141,30 +141,33 @@ a:focus {
 
 }
 
-.navbar .company{
+.nav .company{
 	padding-left:15px;
 	-webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
 
-.navbar-nav > li > a,
-.navbar-nav .dropdown-menu > li > a {
+.nav > li > a,
+.nav .dropdown-menu > li > a {
 	color:#000;
 	font-size:10px;
 }
-.navbar-nav > li{
+.nav > li{
+	display:inline-block;
+	float:left;
+	text-align:left;
 	-webkit-transition: border-bottom-color 1s ease-in-out;
     -moz-transition: border-bottom-color  1s ease-in-out;
     transition: border-bottom-color  1s ease-in-out;
 }
-.navbar-nav > li.active{
+.navbar > li.active{
 	border-bottom:3px solid #d40308;
 }
-.top-nav-collapse .navbar-nav > li.active{
+.top-nav-collapse .navbar > li.active{
 	border-bottom:3px solid #d40308;
 }
-.navbar-nav .caret {
+.navbar .caret {
     border-bottom-color: #fff;
     border-top-color: #fff;
     -webkit-transition: all 1s ease-in-out;
@@ -177,7 +180,7 @@ a:focus {
     border-top-color: #fff;
 }
 
-.navbar-nav .dropdown-menu{
+.navbar .dropdown-menu{
 	font-family: "Muli","Helvetica Neue",Helvetica,Arial,sans-serif;
     opacity:0.96;
     color:white;
@@ -236,8 +239,8 @@ a:focus {
 .top-nav-collapse .company .border{
 	border:3px solid #000;
 }
-.top-nav-collapse .navbar-nav > li > a,
-.top-nav-collapse .navbar-nav .dropdown-menu > li > a {
+.top-nav-collapse .navbar > li > a,
+.top-nav-collapse .navbar .dropdown-menu > li > a {
 	color:#000;	
 }
 
@@ -1705,6 +1708,10 @@ hr.not-visible{
 	}
 	.background-icon{
 		display: none;
+	}
+	.nav li {
+		float:none;
+		display:block;
 	}
 }
 
