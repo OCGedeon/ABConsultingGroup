@@ -79,7 +79,7 @@ a:focus {
 	padding-right:25px;
 	padding-top:15px;
 	padding-bottom:15px;
-	color: #676767;
+	color: #67676red;
 	text-transform: uppercase;
 	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
@@ -90,8 +90,9 @@ a:focus {
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
 	background-color: #2F3238;
 	border-color: #2F3238;
-	color: #fff !important;
 	opacity: 1;
+	color:#d40308 !important;
+
 }
 
 .btn-toWhite:hover, .btn-toWhite:focus, .btn-toWhite:active, .btn-toWhite.active {
