@@ -131,6 +131,11 @@ a:focus {
 	 color: #d40308;
  }
 
+ #navLogoName {
+	 text-align: center;
+	 font-family: 'Courier New', Courier, monospace;
+ }
+
 .nav {
 	border:0px;  
     text-transform: uppercase;
