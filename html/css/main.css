@@ -1359,6 +1359,11 @@ section:nth-child(odd) {
 	font-family:"Montserrat",Helvetica,Arial,sans-serif;
 }
 
+/* logo on landing page */
+
+#landingLogo {
+	margin-left: 4%;
+}
 
 #head{
 	background:none;
@@ -1388,7 +1393,7 @@ section:nth-child(odd) {
 }
 #head .hero h3{
 	font-weight:100;
-	color:white;
+	color:black;
 	margin-top:0px;
 }
 #head .container {
