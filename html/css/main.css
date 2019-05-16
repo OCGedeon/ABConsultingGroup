@@ -109,7 +109,7 @@ a:focus {
 }
 
 .company .border{
-    width:235px;
+    width:240px;
     position: absolute;
     z-index: -2;
 	border:3px solid #fff;
