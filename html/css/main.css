@@ -140,7 +140,7 @@ a {
 	color:#000;
 	font-size:10px;
 }
-.navbar .nav > li{
+.nav > li{
 	display:inline-block;
 	float:left;
 	text-align:left;
@@ -158,9 +158,10 @@ a {
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
+    display:block;
 }
 
-/*.navbar .nav a:hover .caret{
+.navbar .nav a:hover .caret{
 	border-bottom-color: #fff;
     border-top-color: #fff;
 }
@@ -174,14 +175,14 @@ a {
     border:none;
     left:0;
 }
-*/
-.navbar-custom .nav {
+
+/*.navbar-custom .nav {
 	width:580px;
 }
 .navbar-custom .nav li {
 	text-align:center;
 	width:115px;
-}
+}*/
 
 .navbar-custom .nav li a {
 	font-size:14px;
@@ -194,7 +195,7 @@ a {
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active, .navbar-custom .nav li a:active {
+.navbar-custom .nav li.active {
     outline: 0;
     font-weight:bold;
 	background:none;
@@ -227,7 +228,7 @@ a {
 }
 .top-nav-collapse .navbar > li > a,
 .top-nav-collapse .navbar .dropdown-menu > li > a {
-	color:#000;	
+	color:#000 !important;	
 }
 
 .top-nav-collapse .navbar-nav .dropdown-menu {
@@ -244,14 +245,13 @@ a {
 }
 .top-nav-collapse .navbar-toggle{
 	color:#000 !important;
-    position: relative;
-    top:5px;
+   /* position: relative;
+    top:5px;*/
 }
 
 .navbar {
     padding: 20px 0;
     letter-spacing: 1px;
-    background: rgba(0, 0, 0, 0.1);
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -269,7 +269,7 @@ a {
  * second version with static-background
  */
 
-/*
+
 .navbar.static-background{
 	background-color: #fff;
 	color:black;
@@ -277,17 +277,17 @@ a {
 .navbar.static-background .company{
 	color:#000;
 }
-.navbar.static-background .navbar-nav > li > a,.navbar.static-background .navbar-nav .dropdown-menu > li > a {
+.navbar.static-background .nav > li > a,.navbar.static-background .nav .dropdown-menu > li > a {
 	color:#000;
 }
-.navbar.static-background .navbar-nav .caret {
+.navbar.static-background .nav.caret {
     border-bottom-color:#000;
     border-top-color:#000;
 }
-.navbar.static-background .navbar-nav .dropdown-menu{
+.navbar.static-background .nav .dropdown-menu{
 	background:#fff;
 }
-*/
+
 
 
 /* BOOTSTRAP CAROUSEL FADE EFFECT*/
@@ -808,7 +808,9 @@ a {
 	transition: opacity  500ms cubic-bezier(0.2, 0.4, 0.7, 0.8) 0s, transform 3.4s ease 0s;
 }
 
-
+.recent-blog-container .image:hover {
+	box-shadow:1px 1px #000;
+}
 .recent-blog-container .fa-heart{
 	color:#E13636;
 }
@@ -1265,6 +1267,9 @@ a {
     top: 50%;
     width: 50px;
 }
+.arrow-round:hover {
+	box-shadow:1px 1px #000;
+}
 /**********************************
  * SECTIONS
  * 
@@ -1481,6 +1486,7 @@ section:nth-child(odd) {
 #contact .btn-submit:active,
 #contact .btn-submit.active {
 	background: #ff7c6f;
+	box-shadow:2px 2px 2px #000;
 }
 
 #contact input,
