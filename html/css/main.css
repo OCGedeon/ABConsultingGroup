@@ -110,6 +110,8 @@ a {
  */
  /* navbar title and loading screen highlight */
 
+
+
  .highlight {
 	 color: #d40308;
  }
@@ -149,7 +151,7 @@ a {
     transition: border-bottom-color  1s ease-in-out;
 }
 
-.top-nav-collapse .navbar > li.active{
+.top-nav-collapse .navbar > li.active a{
 	border-bottom:3px solid #d40308;
 }
 .navbar .caret {
@@ -1342,6 +1344,7 @@ section:nth-child(odd) {
 	line-height:30px;
 	letter-spacing:3px;
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	margin-bottom:60px;
 }
 .hero p{
 	font-weight:100;

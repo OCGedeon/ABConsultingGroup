@@ -53,6 +53,11 @@ SLAMR.nav= function(options){
 
 	};
 	
+
+	$(document).on('click', 'ul li', function() {
+	$(this).addClass('active').siblings().removeClass('active');
+})
+	
 	scrollEffect();
 
 	if(options == "dropdown"){
