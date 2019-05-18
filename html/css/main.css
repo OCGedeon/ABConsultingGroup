@@ -72,7 +72,11 @@ a {
 	padding-right:25px;
 	padding-top:15px;
 	padding-bottom:15px;
+<<<<<<< Updated upstream
 	color: #676767;
+=======
+	color: #67676red;
+>>>>>>> Stashed changes
 	text-transform: uppercase;
 	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
